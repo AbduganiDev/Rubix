@@ -1,0 +1,128 @@
+@media only screen and (max-width: 1173px) {
+    .menyu {
+        height: 70px;
+        background-color: #fff;
+    }
+   
+    .menyu {
+        width: 100%;
+    }
+    .menu {
+        margin-left: 1rem;
+        width: 50%;
+        display: none;
+    }
+    .menu li {
+        margin-left: 1.2rem;
+        font-size: .9rem;
+    }
+
+    .menu-login {
+        margin-left: 1.5rem;
+        width: 30%;
+        display: none;
+    }
+    .menu-login li {
+        margin-left: .9rem;
+        font-size: .9rem;
+    }
+    /* Shop img  */
+
+    .shopping-img {
+        height: 400px;
+        width: 100%;
+    }
+    .shopping-img-text {
+        height: 50%;
+        padding: 0 0 0 50px;
+    }
+    .shopping-img-text p {
+        font-size: 22px;
+    }
+    .shopping-img-text h2 {
+        font-size: 28px;
+    }
+    .shopping-img-text a {
+        padding: 18px;
+        font-size: 16px;
+    }
+    .shopping-img-text a i {
+        line-height: 40px;
+        color: #fff;
+        padding-left: 20px;
+    }
+    footer {
+        height: 970px;
+        background-color: #1A1A1A;
+    }
+}  
+
+
+@media only screen and (max-width: 960px) {
+    .menu {
+        display: none;
+    }
+    .menu-login {
+       display: none;
+    }
+     /* Shop img  */
+
+    .shopping-img-text p {
+        font-size: 20px;
+    }
+    .shopping-img-text h2 {
+        font-size: 26px;
+    }
+    .shopping-img-text a {
+        padding: 16px;
+        font-size: 14px;
+    }
+    .shopping-img-text a i {
+        line-height: 40px;
+        color: #fff;
+        padding-left: 20px;
+    }
+    footer {
+        height: 960px;
+        background-color: #1A1A1A;
+    }
+    
+}
+
+@media only screen and (max-width: 770px) {
+    .footer-end h2 {
+        font-size: 20px;
+    }
+    .footer-end span {
+        font-size: 14px;
+    }
+    .footer-end img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 628px) {
+    .Newsletter form {
+        width: 370px;
+    }
+    .Newsletter input {
+        padding: 5px 100px 5px 0;
+    }
+}
+@media only screen and (max-width: 518px) {
+    .Newsletter input {
+        padding: 5px 30px 5px 0;
+    }
+    .Newsletter button {
+        padding: 8px 20px;
+    }
+    .ourBlog-item-img a:nth-last-child(1) {
+        padding: 8px 12px;
+    }
+    .footer-end h2 {
+        font-size: 16px;
+    }
+    .footer-end span {
+        font-size: 12px;
+    }
+}
